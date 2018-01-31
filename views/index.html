@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>File Upload Size - ninjazim</title>
+      <link rel="shortcut icon" href="https://cdn.glitch.com/68f17823-b765-4c8e-bcf0-2c2d9c3da863%2Ffavicon.png?1517375404091" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <img src="https://cdn.glitch.com/68f17823-b765-4c8e-bcf0-2c2d9c3da863%2Ffavicon.png?1517375404091" width="250px"/>
+         <h1>File Metadata Microservice</h1>
+        
+         <form class="fileForm" enctype="multipart/form-data" action="/upload" method="post">
+           <label for="upload">Upload a File:</label>
+           <input id="upload" type="file" name="upload" />
+           <button type="submit">Submit</button>
+        </form>
+        
+        
+          <ul>
+            <li><strong>Uploading a file:</strong></li>
+            <li>Use the form to upload a file</li>
+            <li>Receive a json response with file metadata, including the file size in bytes.</li>
+        </ul>
+      </div>
+  
+      <div class="footer">
+       <p>
+         <a href="https://www.freecodecamp.org/ninjazim">freecodecamp.org/ninjazim</a>
+       </p>
+       <p>
+         <a href="https://github.com/ninjazim/file-upload-size">github.com/ninjazim/file-upload-size</a>
+       </p>
+       
+     </div>
+   </body>
+
+</html>

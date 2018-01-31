@@ -1,0 +1,73 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222s;
+	background-color: #ECF0F1;
+	text-align: center;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.footer {
+	margin-top: 60px;
+}
+
+.fileForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #eee;
+  background-color: #fefefe;
+  margin: auto;
+  text-align: left;
+  font-size: 1.1rem;
+
+}
+
+.fileForm input {
+  margin: 5px 0 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 1rem;
+  
+}
+
+button {
+  max-width: 50%;
+  margin: 0 25%;
+  background: steelblue;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+	color: #2574A9;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
